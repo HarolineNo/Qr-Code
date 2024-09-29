@@ -1,0 +1,43 @@
+$qrWidth: 250px;
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('Outfit-Regular.ttf') format('truetype');
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.QR, .text-box {
+    width: $qrWidth;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.border {
+    width: $qrWidth;
+    height: 450px;
+    border: 15px solid white;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+} 
